@@ -21,7 +21,7 @@ class Solution{
             if(ans==x)
             return mid;
             else if(ans<x){
-                ans=mid;
+                
            s=mid+1;
             
             }
