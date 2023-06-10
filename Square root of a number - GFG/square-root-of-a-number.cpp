@@ -14,21 +14,22 @@ class Solution{
         // Your code goes here   
         int s=1;
         int e=x;
-         int ans;
+         long long int ans;
+         int temp;
         while(s<=e){
             long long int mid= s+(e-s)/2;
-            long long int ans=mid*mid;
+             ans=mid*mid;
             if(ans==x)
             return mid;
             else if(ans<x){
-                
+             temp =mid;  
            s=mid+1;
             
             }
             else
             e=mid-1;
         }
-        return s-1;
+        return temp;
     }
 };
 
