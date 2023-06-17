@@ -7,11 +7,11 @@ class Solution{
     public:
     int getSum(int a[], int n) {
         // Your code goes here
-        int sum=0;
+        int res=0;
     for(int i=0;i<n;i++){
-        sum=sum+a[i];
+        res=res+a[i];
     }
-    return sum;
+    return res;
     }   
 };
 
