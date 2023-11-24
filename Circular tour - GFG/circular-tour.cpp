@@ -37,9 +37,11 @@ class Solution{
                start=i+1;
                balance=0;
            }
+           
        }
        
        if(balance+deficit>=0){
+           
            return start;
            
        }
